@@ -1,4 +1,4 @@
 # NoLow Button
 
 cheers 😍😍
-https://ajayparihar.github.io/nolow
+https://ajayparihar.github.io/nolow/
