@@ -1,0 +1,53 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Play</title>
+  <meta name="description" content="NoLow">
+  <meta name="author" content="BabeDeveloper">
+ <style>
+.block {
+	display: block;
+	width: auto;
+	height: auto;
+	background-color: #ce5e82;
+	color: #200d3a;
+	padding: 5% 15% ;
+    margin-top: 20%;
+	font-size: 50px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.block:hover {
+  background-color: #f17099;
+  color:#200d3a;
+}
+    </style>
+    
+</head>
+<body>  
+    <audio id="aud">
+  <source src="Yamekudasai.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+    
+    
+<center>
+    
+<button class="block" onclick="playAudio()" type="button" >Play</button>
+
+</center>
+    
+    
+<script>
+var x = document.getElementById("aud"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+</script>
+</body>
+</html>
