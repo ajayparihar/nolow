@@ -45,8 +45,10 @@
 var x = document.getElementById("aud"); 
 
 function playAudio() { 
-  x.play(); 
-} 
+  x.play();
+  x.currentTime=0;
+
+}
 
 </script>
 </body>
